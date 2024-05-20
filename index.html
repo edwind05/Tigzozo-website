@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="edwin dauda" />
+    <title>Responsive Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/sass/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/c3660f3108.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- end of head -->
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo dark.png" alt="Logo" class="img-fluid" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+        <button class="btn btn-dark mode-toggle" id="dark-mode-toggle">
+          <i
+            class="fa-solid fa-circle-half-stroke bg-dark"
+            id="dark-mode-icon"
+          ></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero row">
+      <div class="hero-text col-12 col-md-4">
+        <h1>Igniting outstanding dreams to life.</h1>
+        <p>
+          Our process enables us to experiment with ideas of all kinds, deliver
+          on time and stay within your budget.
+        </p>
+        <div class="buttn">
+          <button class="btn btn-primary buttn1">Discover More</button>
+          <button class="btn btn-primary buttn2">Book a session</button>
+        </div>
+      </div>
+
+      <div class="hero-images row col-12 col-lg-8 col-md-8 col-sm-12">
+        <div class="col-lg-3 col-12 col-md-3 col-sm-12 image1">
+          <img src="/images/hero1.png" alt="" class="img-fluid image1" />
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 col-sm-12 image2">
+          <img src="/images/hero2.png" alt="" class="img-fluid image2" />
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 col-sm-12 image1">
+          <img src="/images/hero3.png" alt="" class="img-fluid image1" />
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 col-sm-12 image2">
+          <img src="/images/hero4.png" alt="" class="img-fluid image2" />
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="About" id="about">
+      <h3>About Tigzozo media</h3>
+
+      <div class="about-main text-start">
+        <!-- first about section -->
+        <div class="images-text col-12 col-lg-5 col-md-6 col-sm-12">
+          <!-- text -->
+          <div class="text-innr">
+            <p>
+              We are a dedicated team of digital and media creators, marketers
+              and event planners who share a common passion with our clients.
+              Together we create extraordinary brand experiences that help the
+              business community establish their voice and evaluation. Our work
+              is renowned for its highly crafted design, creativity and its
+              ability- to drive action
+            </p>
+          </div>
+
+          <!-- images -->
+          <div class="images-inn col-12 row">
+            <div class="col-12 col-lg-6 col-md-6 col-lg-6 col-sm-12">
+              <img src="/images/about1.png" alt="" class="img-fluid" />
+            </div>
+
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+              <img src="/images/about2.png" alt="" class="img-fluid down-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- second about section -->
+        <div class="about-inner2 col-12 col-lg-5 col-md-6 col-sm-12 text-start">
+          <!-- images -->
+          <div class="inner col-12 col-lg-12 col-md-12 col-sm-12">
+            <!-- <img src="/images/testimonial 2.png" alt="" class="img-fluid" /> -->
+
+            <iframe  width="100%" height="240px" src="https://www.youtube.com/embed/lXPt3CEzsC4?si=hl2DpXEhGRKOq-sb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+
+          <!-- text -->
+          <div class="text-innr">
+            <p>
+              We are a dedicated team of digital and media creators, marketers
+              and event planners who share a common passion with our clients.
+              Together we create extraordinary brand experiences that help the
+              business community establish their voice and evaluation. Our work
+              is renowned for its highly crafted design, creativity and its
+              ability- to drive action
+            </p>
+          </div>
+
+          <button class="btn btn-primary buttn1">find out more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+      <h3>Services we offer at Tigzozo media</h3>
+      <div class="services-main col-12 row">
+        <div class="first images col-12 col-lg-3 col-md-3 col-sm-12">
+          <img src="/images/services1.png" alt="" class="img-fluid photo" />
+
+          <div class="inner-text">
+            <ol>
+              <li>Media</li>
+              <li>Photography</li>
+              <li>Brand design</li>
+              <li>App</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="second images col-12 col-lg-3 col-md-3 col-sm-12">
+          <img src="/images/services1.png" alt="" class="img-fluid photo" />
+
+          <div class="inner-text">
+            <ol>
+              <li>Media</li>
+              <li>Photography</li>
+              <li>Brand design</li>
+              <li>App</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="third images col-12 col-lg-3 col-md-3 col-sm-12">
+          <img src="/images/services1.png" alt="" class="img-fluid photo" />
+
+          <div class="inner-text">
+            <ol>
+              <li>Media</li>
+              <li>Photography</li>
+              <li>Brand design</li>
+              <li>App</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials section -->
+    <section class="testimonials" id="testimonials">
+      <h3>What our happy clients say about Tigzozo media</h3>
+
+      <div class="testimonials-inner row">
+        <!-- first testimonials section -->
+        <div class="testimonials-inner1 col-12 col-md-4 col-sm-12">
+          <div class="image1">
+            <img src="/images/testimonial 1.png" alt="" class="img-fluid" />
+          </div>
+
+          <div class="text1">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus ipsa magni saepe praesentium quis cupiditate iste est
+              maxime illum autem!
+            </p>
+          </div>
+        </div>
+
+        <!-- second testimonials section -->
+
+        <div class="testimonials-inner2 col-12 col-md-4 col-sm-12">
+          <div class="image1">
+            <img src="/images/testimonial 2.png" alt="" class="img-fluid" />
+          </div>
+
+          <div class="text1">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              libero sit molestias nihil magni placeat unde cumque consequuntur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio text-center">
+      <h3>As seen on <span>Instagram</span></h3>
+      <div class="portfolio-inner col-8 row">
+        <div class="image1 col-12 col-lg-2 col-md-3 col-sm-12">
+          <img src="/images/social1.png" alt="" class="img-fluid" />
+        </div>
+
+        <div class="image2 col-12 col-lg-2 col-md-3 col-sm-12">
+          <img src="/images/social2.png" alt="" class="img-fluid" />
+        </div>
+
+        <div class="image1 col-12 col-lg-2 col-md-3 col-sm-12">
+          <img src="/images/social3.png" alt="" class="img-fluid" />
+        </div>
+
+        <div class="image2 col-12 col-lg-2 col-md-3 col-sm-12">
+          <img src="/images/social4.png" alt="" class="img-fluid" />
+        </div>
+
+        <div class="image1 col-12 col-lg-2 col-md-3 col-sm-12">
+          <img src="/images/social5.png" alt="" class="img-fluid" />
+        </div>
+
+        <div class="image2 col-12 col-lg-2 col-md-3 col-sm-12">
+          <img src="/images/social6.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <p><b>#Tigzozo</b></p>
+      <button class="btn btn-primary buttn1">Follow us</button>
+    </section>
+
+    <!-- footer section -->
+    <footer class="row footer col-12">
+      <div class="f2 col-12 col-lg-3 col-md-3 col-sm-12">
+        <img src="/images/logo.png" alt="" class="img-fluid" />
+        <p>&copy Copyrights of Tigzozo media 2022</p>
+        <h4>All rights reserved</h4>
+
+        <div class="icons row">
+          <div><i class="fa-brands fa-facebook"></i></div>
+          <div><i class="fa-brands fa-square-instagram"></i></div>
+        </div>
+      </div>
+
+      <div class="f2 col-12 col-lg-3 col-md-3 col-sm-12">
+        <h4>About us</h4>
+        <p>Our story</p>
+        <p>Our team</p>
+        <p>Testimonials</p>
+        <p>COVID 19 update</p>
+      </div>
+
+      <div class="f2 col-12 col-lg-3 col-md-3 col-sm-12">
+        <h4>Here to help</h4>
+        <p>Contact us</p>
+        <p>Book a session</p>
+        <p>Payment</p>
+      </div>
+
+      <div class="f2 col-12 col-lg-3 col-md-3 col-sm-12">
+        <h4>Get in touch</h4>
+        <p><i class="fa fa-phone"></i>Contact us</p>
+        <p><i class="fa-regular fa-envelope"></i>john@tigzozomedia.com</p>
+        <p><i class="fa fa-location"></i>132 East street Avondale, harare</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

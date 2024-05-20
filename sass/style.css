@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  background-color: none;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  mix-blend-mode: difference;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 0 0 20px;
+}
+body #toggle-dark-mode {
+  border: none;
+}
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+body.dark-mode .navbar-nav {
+  padding-left: 470px;
+}
+body.dark-mode .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+body.dark-mode a {
+  color: #fff;
+}
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: #fff;
+}
+body.dark-mode button {
+  background-color: #fff;
+  color: black;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  background-color: none;
+}
+.navbar .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar .mode-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.navbar .mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar .dark-mode-icon {
+  transition: transform 0.3s ease-in-out;
+}
+.navbar .dark-mode-icon.active {
+  transform: rotate(180deg);
+}
+.navbar .dark-mode:active {
+  background-color: #333;
+  mix-blend-mode: difference;
+}
+.navbar .dark-mode.navbar-nav .nav-item .nav-link {
+  mix-blend-mode: difference;
+  font-weight: bold;
+  font-size: 24px;
+}
+.navbar .dark-mode .navbar-nav .nav-link:hover {
+  color: #ccc;
+}
+
+.hero {
+  align-content: center;
+  justify-content: center;
+}
+.hero .hero-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.hero .hero-text .buttn1 {
+  background-color: rgb(88, 0, 88);
+  border-color: rgb(88, 0, 88);
+  border-width: 2px;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.hero .hero-text .buttn1:hover {
+  background-color: #fff;
+  color: rgb(88, 0, 88);
+}
+.hero .hero-text .buttn2 {
+  background-color: white;
+  border-color: rgb(88, 0, 88);
+  border-width: 2px;
+  color: black;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.hero .hero-text .buttn2:hover {
+  background-color: rgb(88, 0, 88);
+  color: #fff;
+}
+.hero .hero-images {
+  align-content: center;
+}
+.hero .hero-images .image1 {
+  padding-top: 40px;
+}
+.hero .hero-images .image2 {
+  padding-top: 80px;
+}
+.hero:hover .hero-images {
+  animation: fadeIn 2s ease-in-out 2s;
+}
+
+.About {
+  margin: 40px;
+}
+.About h3 {
+  padding: 20px;
+}
+.About .about-main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.About .about-main .images-text {
+  position: relative;
+}
+.About .about-main .images-text .images-inn {
+  padding-top: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.About .about-main .images-text .images-inn .down-img {
+  padding-top: 100px;
+}
+.About .about-main .images-text .text-innr {
+  text-align: start;
+}
+.About .about-main .images-text .images-inn {
+  opacity: 1;
+}
+.About .about-main .about-inner2 .buttn1 {
+  background-color: rgb(88, 0, 88);
+  border-color: rgb(88, 0, 88);
+  border-width: 2px;
+  margin: 10px 20px 20px 0;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.About .about-main .about-inner2 .buttn1:hover {
+  background-color: #fff;
+  color: rgb(88, 0, 88);
+}
+.services h3 {
+  padding: 20px;
+}
+.services .services-main {
+  align-content: center;
+  justify-content: center;
+}
+.services .services-main .images {
+  position: relative;
+  overflow: hidden;
+}
+.services .services-main .images .inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.services .services-main .images:hover .inner-text {
+  opacity: 1;
+}
+.services .services-main .images:hover .photo {
+  transform: scale(1.1);
+}
+
+.testimonials {
+  margin-top: 40px;
+}
+.testimonials h3 {
+  padding: 20px;
+  display: flex;
+}
+.testimonials .testimonials-inner {
+  justify-content: center;
+  align-content: center;
+}
+.testimonials .testimonials-inner .testimonials-inner1 {
+  padding-top: 80px;
+}
+
+.portfolio {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .portfolio-inner {
+  margin: 40px;
+}
+.portfolio .portfolio-inner .image2 {
+  padding-top: 80px;
+}
+.portfolio .portfolio-inner .image1,
+.portfolio .portfolio-inner .image2 {
+  transition: all 0.3s ease-in-out;
+}
+.portfolio .portfolio-inner .image1:hover,
+.portfolio .portfolio-inner .image2:hover {
+  transform: scale(1.1);
+}
+.portfolio .buttn1 {
+  background-color: rgb(88, 0, 88);
+  border-color: rgb(88, 0, 88);
+  border-width: 2px;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio .buttn1:hover {
+  background-color: #fff;
+  color: rgb(88, 0, 88);
+}
+
+.footer {
+  background-color: rgb(88, 0, 88);
+  color: white;
+  padding: 20px;
+}
+.footer .f2 .icons {
+  display: flex;
+  align-items: center;
+}
+.footer .f2 .icons div {
+  margin: 0 10px;
+}
+.footer .f2 .icons div .fa-brands {
+  font-size: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.footer .f2 .icons div .fa-brands:hover {
+  transform: rotate(360deg);
+}
+.footer .f2 p i {
+  margin: 5px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.image1 {
+  animation: slideIn 1s ease-in-out;
+}
+
+.image2 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.image3 {
+  animation: slideIn 1s ease-in-out;
+}
+
+.image4 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.image5 {
+  animation: slideIn 1s ease-in-out;
+}
+
+.image6 {
+  animation: fadeIn 1s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
